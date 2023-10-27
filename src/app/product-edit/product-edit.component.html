@@ -1,0 +1,27 @@
+
+<div class="main">
+            
+    <main id="content" class="content">
+        <h1 id="header" class="h3 mb-3">Edit Product</h1>
+        <table id="table">
+            <tr>
+                <th style="width: 100px">Product ID</th>
+                <th style="width: 150px">Product Name</th>
+                <th style="width: 100px">Price</th>
+            </tr>
+            <tr>
+                <td>{{id}}</td>
+                <td>{{name}}</td>
+                <td>{{price}}</td>
+            </tr>
+        </table>
+
+        <form [formGroup]="productData" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column;gap: 0.5em;">
+            <input id="username-input" type="text" placeholder="Name"  formControlName="name" style="width: 40%">
+            <input id="password-input" type="text" placeholder="Price"  formControlName="price" style="width: 40%">
+            <button type="submit" id="signin" style="width: 40%">Update</button>
+        </form>
+    </main>
+
+    
+</div>

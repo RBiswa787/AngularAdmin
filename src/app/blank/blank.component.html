@@ -1,0 +1,26 @@
+
+<div class="main">
+            
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<h1 class="h3 mb-3">Login/Register</h1>
+<div class="login-parent">
+                    <div class="login-container">
+                        Login / Register
+                        <form [formGroup]="userData" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column;gap: 0.5em;">
+                        <input id="username-input" type="text" placeholder="Username"  formControlName="username">
+                        <input id="password-input" type="password" placeholder="Password"  formControlName="password">
+                        <button type="submit" id="signin">Register</button>
+                        <button type="button" id = "signin" (click) = "onSignIn()">Sign In</button>
+                    </form>
+                        
+                    </div>
+                </div>
+
+				</div>
+          
+			</main>
+
+			
+</div>

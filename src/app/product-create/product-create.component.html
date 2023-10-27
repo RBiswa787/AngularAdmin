@@ -1,0 +1,15 @@
+
+<div class="main">
+            
+    <main id="content" class="content">
+        <h1 class="h3 mb-3">Add New Product</h1>
+        
+        <form [formGroup]="productData" (ngSubmit)="onCreate()" style="display: flex; flex-direction: column;gap: 0.5em;">
+            <input id="username-input" type="text" placeholder="Name"  formControlName="name" style="width: 40%">
+            <input id="password-input" type="text" placeholder="Price"  formControlName="price" style="width: 40%">
+            <button type="submit" id="signin" style="width: 40%">Create</button>
+        </form>
+    </main>
+
+    
+</div>
