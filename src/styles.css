@@ -16118,7 +16118,7 @@ span.flatpickr-weekday {
 
 #signin{
     margin-top: 5%;
-    bordeR: none;
+    border: none;
     background-color: black;
     color: white;
     font-size: 0.8em;
@@ -16135,7 +16135,7 @@ span.flatpickr-weekday {
     display: flex;
     height: 20px;
     width: 100px;
-    bordeR: 1px solid black;
+    border: 1px solid black;
     justify-content: center;
     align-items: center;
     padding: 2%;
